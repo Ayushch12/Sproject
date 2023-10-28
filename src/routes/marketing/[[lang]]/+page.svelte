@@ -8,8 +8,8 @@
     };
 
     const { lang = "en" } = $page.params;
-    const greeting = greetings[lang] ;
+    // const greeting = greetings[lang] ;
 
     </script>
 
-    <h1>{greeting}</h1>
+    <!-- <h1>{greeting}</h1> -->
