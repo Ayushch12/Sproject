@@ -2,8 +2,6 @@
 
     import { afterNavigate, beforeNavigate, goto } from "$app/navigation";
 
-
-
     const handleClick = () =>{
         console.log("Placing your order");
         goto("/products", {replaceState:true});
@@ -20,8 +18,6 @@
 
 
 <h1>Hey my world</h1>
-
-
 
 <a href="/blog">Blog</a>
 <a href="/products">Product</a>
